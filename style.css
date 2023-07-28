@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 132px;
+}
+
+.logo {
+    background-image: url("amazon-icon.png");
+    background-size: cover;
+    background-blend-mode: normal;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border :hover {
+    border: 1px solid white;
+}
+
+.nav-deliver{
+    margin: 10px 2px 5px 0px;
+    padding: 0px 9px;
+}
+.del-icon{
+    display: flex;
+}
+
+.del-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin: 0px 0px 0px 12px;
+}
+
+.del-second{
+    color: #ffffff;
+    font-size: 1rem;
+}
