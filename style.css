@@ -10,11 +10,31 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.nav-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.nav-center{
+    width: 50%;
 }
 
 .nav-logo {
     height: 50px;
     width: 132px;
+    padding: 4px 12px 4px 12px;
 }
 
 .logo {
@@ -38,11 +58,11 @@
 /* delivery address box */
 
 .nav-deliver{
-    margin: 5px 2px 5px 0px;
-    padding: 0px 9px;
+    padding: 4px 7px 4px 7px;
 }
 .del-icon{
     display: flex;
+    align-items: center;
 }
 
 .del-first{
@@ -54,24 +74,67 @@
 .del-second{
     color: #ffffff;
     font-size: 1rem;
-    margin: 0px 0px 0px 2px;
+    margin-left: 3px;
 }
 
 /* search box */
 
 .nav-search{
     display: flex;
-    background-color: bisque;
-    width: 650px;
-    height: 50px;
+    justify-content: space-evenly;
+    width: 750px;
+    height: 40px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
+.nav-search:hover{
+    border: 2px solid #febd69;
+}
+
 .search-select{
     background-color: #f3f3f3 ;
-    width: 50px;
+    width: 100px;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color: #febd69;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.nav-up{
+    font-size: .8rem;
+}
+
+.nav-down{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* cart */
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
