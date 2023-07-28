@@ -9,6 +9,7 @@
     background-color: #0f1111;
     color: white;
     display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -28,12 +29,16 @@
     border: 1px solid transparent;
 }
 
-.border :hover {
+.border:hover {
     border: 1px solid white;
 }
 
+
+
+/* delivery address box */
+
 .nav-deliver{
-    margin: 10px 2px 5px 0px;
+    margin: 5px 2px 5px 0px;
     padding: 0px 9px;
 }
 .del-icon{
@@ -43,10 +48,30 @@
 .del-first{
     color: #cccccc;
     font-size: 0.8rem;
-    margin: 0px 0px 0px 12px;
+    margin: 0px 0px 0px 13px;
 }
 
 .del-second{
     color: #ffffff;
     font-size: 1rem;
+    margin: 0px 0px 0px 2px;
+}
+
+/* search box */
+
+.nav-search{
+    display: flex;
+    background-color: bisque;
+    width: 650px;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-select{
+    background-color: #f3f3f3 ;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
