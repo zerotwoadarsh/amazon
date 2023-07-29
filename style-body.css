@@ -1,0 +1,18 @@
+.body-top{
+    background-image: url("banner-img.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.body-mess{
+    background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.body-mess a{
+    color: #007185;
+}
