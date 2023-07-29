@@ -176,3 +176,28 @@
 .body-mess a{
     color: #007185;
 }
+
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    width: 20%;
+    background-color: #ffffff;
+}
+
+.box-img{
+    height: 300px;
+}
+
+.box h2{
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px;
+}
+.box-content{
+    
+}
