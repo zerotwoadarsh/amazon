@@ -82,7 +82,8 @@
 .nav-search{
     display: flex;
     justify-content: space-evenly;
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
     height: 40px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -292,4 +293,47 @@ ul a{
 .copyright{
     margin-top: 6px;
     padding: 3px 0px 5px ;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+        width: 100%;
+    }
+
+    .nav-search {
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-left,
+    .nav-center,
+    .nav-right {
+        width: 100%;
+    }
+
+    .nav-search {
+        max-width: none;
+    }
+
+    .body-top {
+        height: auto;
+    }
+
+    .shop-section .box {
+        width: 100%;
+    }
 }
