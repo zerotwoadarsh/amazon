@@ -74,3 +74,19 @@ function renderFootPanel2() {
 
 // Call the function to render foot-panel2 elements
 renderFootPanel2();
+
+const panelOps = [
+    "amazon miniTV", "sell", "best sellers", "today's deals", "Mobiles", "new release", "customer services", "electronics", "gift ideas", "Amazon Pay", "coupons", "fashion", "books"
+];
+
+function renderPanelOps (){
+    const panelOpsContainer = document.querySelector('.panel-ops');
+    panelOps.forEach((item) =>{
+        const innerContent = `
+        <p class="border">${item}</p>
+        `;
+        panelOpsContainer.innerHTML += innerContent;
+    })
+}
+
+renderPanelOps();
